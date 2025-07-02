@@ -26,17 +26,6 @@ Each experiment is contained in its own directory with:
 - Documentation/README specific to that experiment
 - Results and outputs
 
-## 📋 Experiments List
-
-| Experiment | Topic | Status |
-|------------|-------|--------|
-| 01 | Data Preprocessing and EDA | ✅ |
-| 02 | Linear Regression Implementation | ✅ |
-| 03 | Classification Algorithms | 🔄 |
-| 04 | Clustering Techniques | ⏳ |
-| 05 | Neural Networks Basics | ⏳ |
-| ... | ... | ... |
-
 **Legend**: ✅ Completed | 🔄 In Progress | ⏳ Planned
 
 ## 📊 Key Learning Outcomes

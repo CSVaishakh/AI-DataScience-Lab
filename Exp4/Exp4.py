@@ -2,6 +2,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_iris
 from sklearn.metrics import confusion_matrix,precision_score,f1_score
+
 irisData = load_iris()
 
 X = irisData.data
@@ -16,6 +17,7 @@ accuracy = knn.score(x_test,y_test)
 con_mat = confusion_matrix(y_test,pred)
 f1 = f1_score(y_test,pred, average="macro")
 precision = precision_score(y_test,pred, average="macro")
+
 correct_predictions = 0
 wrong_predictions = 0
 

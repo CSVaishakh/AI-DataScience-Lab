@@ -1,0 +1,54 @@
+
+CORRECT PREDICTIONS:
+------------------------------
+Sample 1: Predicted = setosa, Actual = setosa ✓
+Sample 2: Predicted = virginica, Actual = virginica ✓
+Sample 3: Predicted = virginica, Actual = virginica ✓
+Sample 4: Predicted = setosa, Actual = setosa ✓
+Sample 5: Predicted = versicolor, Actual = versicolor ✓
+Sample 6: Predicted = versicolor, Actual = versicolor ✓
+Sample 7: Predicted = setosa, Actual = setosa ✓
+Sample 8: Predicted = virginica, Actual = virginica ✓
+Sample 10: Predicted = versicolor, Actual = versicolor ✓
+Sample 11: Predicted = virginica, Actual = virginica ✓
+Sample 12: Predicted = versicolor, Actual = versicolor ✓
+Sample 13: Predicted = virginica, Actual = virginica ✓
+Sample 14: Predicted = versicolor, Actual = versicolor ✓
+Sample 16: Predicted = virginica, Actual = virginica ✓
+Sample 17: Predicted = versicolor, Actual = versicolor ✓
+Sample 18: Predicted = setosa, Actual = setosa ✓
+Sample 19: Predicted = versicolor, Actual = versicolor ✓
+Sample 20: Predicted = versicolor, Actual = versicolor ✓
+Sample 21: Predicted = setosa, Actual = setosa ✓
+Sample 22: Predicted = versicolor, Actual = versicolor ✓
+Sample 23: Predicted = setosa, Actual = setosa ✓
+Sample 24: Predicted = virginica, Actual = virginica ✓
+Sample 25: Predicted = virginica, Actual = virginica ✓
+Sample 26: Predicted = setosa, Actual = setosa ✓
+Sample 27: Predicted = virginica, Actual = virginica ✓
+Sample 28: Predicted = setosa, Actual = setosa ✓
+Sample 29: Predicted = virginica, Actual = virginica ✓
+Sample 30: Predicted = setosa, Actual = setosa ✓
+
+Total Correct Predictions: 28
+
+WRONG PREDICTIONS:
+------------------------------
+Sample 9: Predicted = versicolor, Actual = virginica ✗
+Sample 15: Predicted = virginica, Actual = versicolor ✗
+
+Total Wrong Predictions: 2
+
+==================================================
+SUMMARY STATISTICS
+==================================================
+Total Test Samples: 30
+Correct Predictions: 28
+Wrong Predictions: 2
+Accuracy: 0.93 = (93.33%)
+Precision : 0.94
+f1 score : 0.94
+Confusion Matrix : 
+ [[ 9  0  0]
+ [ 0  9  1]
+ [ 0  1 10]]

@@ -1,7 +1,9 @@
-from,to
-A,B
-A,C
-B,D
-B,E
-C,F
-E,G
+from,to,COST
+A,B,3
+A,C,4
+A,D,5
+B,E,1
+C,F,3
+D,C,2
+E,G,2
+F,G,1
